@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="727.0" prefWidth="1030.0" style="-fx-background-image: url(&quot;file:src/iPAYROLL/WesternBackground.png&quot;);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iPAYROLL.MainFormController">
+   <top>
+      <MenuBar fx:id="mainMenu" BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#createResetDB" text="Create/Reset DB" />
+                  <MenuItem mnemonicParsing="false" onAction="#generateWages" text="Generate Wages" />
+              <MenuItem mnemonicParsing="false" onAction="#exit" text="Close" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Employee Profiles">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#addNewProfile" text="Add New Profile" />
+                  <MenuItem mnemonicParsing="false" onAction="#modifyProfile" text="Modify Profile" />
+                  <MenuItem mnemonicParsing="false" onAction="#deleteProfile" text="Delete Profile" />
+               </items></Menu>
+          <Menu mnemonicParsing="false" text="Wages Information">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#editWages" text="Add/Modify" />
+               </items></Menu>
+          <Menu mnemonicParsing="false" text="Print Checks" />
+            <Menu mnemonicParsing="false" text="Deposits Compensations" />
+            <Menu mnemonicParsing="false" text="Compensations">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#viewCompensation" text="Show Compensation Records" />
+               </items></Menu>
+            <Menu mnemonicParsing="false" text="About">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#showAbout" text="About Us" />
+               </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iPAYROLL.GenerateWagesController">
+   <children>
+      <Label layoutX="203.0" layoutY="31.0" prefHeight="22.0" prefWidth="177.0" text="GENERATE WAGES">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="selectEmployeeBox" layoutX="145.0" layoutY="83.0" prefHeight="27.0" prefWidth="188.0" promptText="Select Employee..." />
+      <Button fx:id="generateWageBtn" layoutX="413.0" layoutY="83.0" mnemonicParsing="false" onAction="#generateEmployeeWage" text="Generate Wage" />
+      <Button fx:id="cancelBtn" layoutX="496.0" layoutY="341.0" mnemonicParsing="false" onAction="#cancel" text="Cancel" />
+   </children>
+</AnchorPane>

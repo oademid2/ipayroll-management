@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iPAYROLL.CompensationViewerController">
+   <children>
+      <Button fx:id="btnClose" layoutX="525.0" layoutY="359.0" mnemonicParsing="false" onAction="#dismiss" text="Close" />
+      <Label layoutX="55.0" layoutY="62.0" text="EmployeeID:" />
+      <Label layoutX="55.0" layoutY="104.0" prefHeight="17.0" prefWidth="77.0" text="TimeStamp:" />
+      <Label layoutX="72.0" layoutY="146.0" prefHeight="17.0" prefWidth="60.0" text="Net Pay:" />
+      <Label fx:id="timeStamp" layoutX="150.0" layoutY="104.0" prefHeight="17.0" prefWidth="120.0" />
+      <Label fx:id="idlabel" layoutX="150.0" layoutY="62.0" prefHeight="17.0" prefWidth="111.0" />
+      <Label fx:id="netpaylabel" layoutX="143.0" layoutY="146.0" prefHeight="17.0" prefWidth="111.0" />
+      <Label layoutX="188.0" layoutY="28.0" text="COMPENSATION RECORD">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

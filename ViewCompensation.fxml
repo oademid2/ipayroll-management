@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iPAYROLL.ViewCompensationController">
+   <children>
+      <Label layoutX="202.0" layoutY="25.0" text="VIEW COMPENSATION">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="employeeBox" layoutX="148.0" layoutY="65.0" prefHeight="23.0" prefWidth="178.0" promptText="Select Employee..." />
+      <Button fx:id="okBtn" layoutX="354.0" layoutY="63.0" mnemonicParsing="false" onAction="#okay" text="ok" />
+      <Button fx:id="cancelBtn" layoutX="511.0" layoutY="350.0" mnemonicParsing="false" onAction="#cancel" text="cancel" />
+   </children>
+</AnchorPane>
